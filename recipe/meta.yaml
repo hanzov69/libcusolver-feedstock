@@ -1,5 +1,5 @@
 {% set name = "libcusolver" %}
-{% set version = "12.3.2.15" %}
+{% set version = "12.3.4.7" %}
 {% set cuda_version = "13.4" %}
 {% set platform = "linux-x86_64" %}  # [linux64]
 {% set platform = "linux-ppc64le" %}  # [ppc64le]
@@ -13,10 +13,10 @@
 {% set target_name = "arm64" %}  # [win and arm64]
 {% set extension = "tar.xz" %}  # [not win]
 {% set extension = "zip" %}  # [win]
-{% set sha256 = "436a5a9acd2152a51ca92322f06d9761eb62bb3bf7b93310ee1a59096bea346a" %}  # [linux64]
-{% set sha256 = "5069d84709c8b6d2f18ce259beedb3f45633a53ff4c0a5b3f50c99023e69aac3" %}  # [aarch64]
-{% set sha256 = "0d57e591a0d447bd78da8def27886b1d286c27575b2d0a2bfa6dd6aa4f2f57c1" %}  # [win64]
-{% set sha256 = "84e43a78ffb8b2159b679effa6e1a36c9ee853929e313d32fe474139d5b93fb8" %}  # [win and arm64]
+{% set sha256 = "dd89888e75628ada3fece05eb642d8e492667fdf3714c4659104c9636863f6ec" %}  # [linux64]
+{% set sha256 = "8217d8129f46313d95d6d04acff38f625ddc03f5f377e7d1029b18a3fc37fd59" %}  # [aarch64]
+{% set sha256 = "1d3bb145a2d81ddd94a2a22d923bfdb2b59662f85be5e430ad1cb0b9d587a4b9" %}  # [win64]
+{% set sha256 = "574999b5e43a3e5d92860a274a1cd65b501fca5394a555137234200d12cacd84" %}  # [win and arm64]
 
 package:
   name: {{ name }}-split
